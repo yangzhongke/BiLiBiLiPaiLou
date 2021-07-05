@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2, 
+  "name": "B站评论排楼",
+  "version": "1.0.0",
+  "description": "B站评论排楼", 
+  "icons": {
+    "48": "images/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_title": "B站评论排楼"
+  }, 
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+
+  "permissions": [
+    "contextMenus",
+	"tabs",
+	  "notifications",
+	  "http://*/*",
+	  "https://*/*"
+  ]
+}
